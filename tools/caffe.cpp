@@ -398,7 +398,7 @@ int time() {
 RegisterBrewFunction(time);
 
 int main(int argc, char** argv) {
-	cvNamedWindow("Image", 1);
+	//cvNamedWindow("Image", 1);
   // Print output to stderr (while still logging).
   FLAGS_alsologtostderr = 1;
   // Set version
